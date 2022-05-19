@@ -13,7 +13,7 @@ public class LoginDemoSteps {
 	WebDriver driver=null;
 	@Given("browser is open for user")
 	public void browser_is_open_for_user() {
-		System.setProperty("webdriver.chrome.driver","/Users/arunakirannulu/eclipse-workspace/CucumberJava/src/test/resources/Driver/chromedriver2");
+		System.setProperty("webdriver.chrome.driver","/Users/arunakirannulu/eclipse-workspace/CucumberSeleniumFramework/src/test/resources/Driver/chromedriver2");
 		driver=new ChromeDriver();
 		//driver.manage().timeouts().implicitlyWait(20, TimeUnit.SECONDS);	
 		driver.manage().window().maximize();

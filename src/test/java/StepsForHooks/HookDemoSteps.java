@@ -21,7 +21,7 @@ public class HookDemoSteps
 	public void browserSetup()
 	{
 		System.out.println("I am inside the browser");
-		System.setProperty("webdriver.chrome.driver","/Users/arunakirannulu/eclipse-workspace/CucumberJava/src/test/resources/Driver/chromedriver2");
+		System.setProperty("webdriver.chrome.driver","/Users/arunakirannulu/eclipse-workspace/CucumberSeleniumFramework/src/test/resources/Driver/chromedriver2");
 		driver=new ChromeDriver();
 		driver.manage().timeouts().pageLoadTimeout(20, TimeUnit.SECONDS);
 		driver.manage().window().maximize();
